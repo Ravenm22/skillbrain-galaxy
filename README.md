@@ -1,57 +1,52 @@
-# skillbrain-galaxy 
+<!DOCTYPE html>
+<html lang="en">
 
-## Comenzi de Linux utile
+<head>
 
-"cd git" - schimbam folderul in folderul "git"
-"cd .." - schimbam folderul parinte
-"ls" - vedem ce se afla in interior
-"pwd" - vezi directoriul curent (path)
-"CTRL + C" - abandonezi comanda
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-## Comenzi de Git utile
+<title>Resume</title>
 
-Conexiunea cu github:
+</head>
 
-(prima data, cand cream un nou repo)
+<body>
 
-"git clone git@github....-skillbrain-momo.git" (linkul se ia din rubrica SSH)
+        <h1>Razvan Nitulica</h1>
 
-(optional) "git remote -v" - vedem linkul de conectare la github
+        <p>Romania, 917055 • +40 0723992242<br>
+    EmailID • <a href="#">linkedin.com/in/razvan-nitulica-370503222</a></p>
 
-(optional) "git status" - sa vedem care e statusul nostru
+    <div class="section">
+        <h2>Objective</h2>
+        <p>Career Reorientation</p>
+    </div>
 
+    <div class="section">
+        <h2>Experience</h2>
+        <p>November 2019 – Customer Support Agent, Amazon UK</p>
+        <p>December 2021 – Customer Support Agent, Go Daddy</p>
+        <p>June 2024 – Customer Support Agent, Panasonic UK</p>
+    </div>
 
-PUSH (impingem codul local catre github. Ne straduim sa nu facem push niciodata pe branch-ul main)
+    <div class="section">
+        <h2>Education</h2>
+        <p>2019 - Highschool, Alexandru-Odobescu</p>
+    </div>
 
-1.(optional) git status
+    <div class="section">
+        <h2>Skills</h2>
+        <p><strong>Customer Satisfaction:</strong> Persuasive Speaking Skills, Ability to use positive language, clear communication skills</p>
+        <p><strong>Professional:</strong> Adaptability, self-control, clear communication, empathy</p>
+    
+    </div>
 
-[aici trebuie sa fie curat, fara modificari active, daca sunt modificari active trebuie fie de renuntat la ele sau sa le adaugam. Intr-un final trebuie sa fie afisat asta: Nothing to commit, working tree clean"]
+    <div class="section">
+        <h2>Achievements</h2>
+        <p>Closing the sale for 35 Microsoft Licenses in 2022 - 1</p>
+        <p>Sold 10 new TVS and 15 new Phones in 2025 - 2</p>
 
-Pentru a renunta la modificari active, se poate scrie comanda: "git stash"
+    </div>
 
-(important) Sa ne asiguram ca suntem in dosarul parinte (unde s-a copiat repository-ul) si nu in subdosare.
-
-2. git checkout main
-3. git fetch
-4. git pull origin main (actualizam branchul main din github in local) (se mai poate folosi comanda de git rebase)
-
-5.git checkout -b sprint7
-
-// Incepem lucru: cream un dosar nou "sprint7" si punem acolo toate fisierele necesare
-
-// Cand terminal lucru:
-
-6. git add .
-
-7.git commit -m "Add readme.md"
-
-8.git push origin sprint7
-
-9.[se creeaza un PR - Pull Request]
-
-10.[se creeaza un ticket pe notion cu linkul la PR]
-
-[se asteapta confirmarea]
-
-11. [doar dupa ce exista confirmarea se apasa Merge la Pull Request]
-
+</body>
+</html>
