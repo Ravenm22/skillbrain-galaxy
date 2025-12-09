@@ -1,5 +1,6 @@
 import "./App.css";
 import TaskCard from "./components/task-card/TaskCard";
+import TaskViewer from "./components/task-viewer/TaskViewr";
 
 function App() {
   const data = [
@@ -15,23 +16,24 @@ function App() {
       status: "In Progress",
       dueDate: new Date(2022, 7, 24),
     },
+    {
+      id: "T-3",
+      name: "13 Create a Design System for Enum Workspace.",
+      status: "Done",
+      dueDate: new Date(2022, 7, 24),
+    },
   ];
 
   return (
-    <div className="app-container">
-      <TaskCard
-        id={data[0].id}
-        status={data[0].status}
-        name={data[0].name}
-        dueDate={data[0].dueDate}
-      />
-      <TaskCard
-        id={data[1].id}
-        status={data[1].status}
-        name={data[1].name}
-        dueDate={data[1].dueDate}
-      />
-    </div>
+    <>
+      <div className="main">
+        <h2>Task Manager</h2>
+        <div className="app-container">
+          <header className="margin-header"></header>
+          <TaskViewer data={data} />
+        </div>
+      </div>
+    </>
   );
 }
 
